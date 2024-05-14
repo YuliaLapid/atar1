@@ -1,0 +1,234 @@
+img {
+	width:270px;
+	height:300px; 
+	border-radius: 20%;
+	padding:10px;
+}
+
+#grad1{
+	
+    background-image: linear-gradient(to bottom right,#F4ECF7, #4A235A);
+}
+	
+
+ 
+
+
+
+a {font-size: 2 rem; color: white;text-shadow: red 0 1px 2px;}
+
+h1 { color:white; font-size: 6rem; font-style: italic; font-weight: bold; text-shadow: red 0 1px 2px;
+}
+
+h2 {  color:white; font-size: 2.5rem;text-shadow: red 0 1px 2px;
+}
+
+h3 {  color:black; font-size: 3.5rem; text-shadow: white 0 1px 2px;
+}
+
+h4 {color:black; font-size: 1.5rem;}
+
+h5 {color:black; font-size: 2rem; text-shadow: #5B2C6F 0 1px 2px;}
+
+h6 {color:white; font-size: 2rem; text-shadow: red 0 1px 2px;}
+
+li {font-size: 1.7rem;}
+
+
+p {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+  font-size: 1.7rem;
+}
+
+ul {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+  }
+  
+  
+  table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table.center {
+  margin-left: auto; 
+  margin-right: auto;
+ 
+}
+  
+  
+  td {font-size: 1.5rem; }
+  th {font-size: 1.5rem; }
+  
+  td {font-size: 1.5rem; }
+  th {font-size: 1.5rem; }
+  
+  .center {
+  margin-left: auto;
+  margin-right: auto;
+}
+  
+  
+
+#nicetitle {
+	background-image: conic-gradient (#553c9a, #ee4b2b, #00c2cb);
+		
+}
+
+
+
+
+
+.box{
+	background-color: #d0bdf4;
+    color: white;
+}
+#right{    
+ float: right;  
+}
+
+.blue {
+	border:2px solid blue;
+}
+
+.pink {
+	border:5px solid #ff1493;
+					
+}
+
+.border-sagol {
+	border:5px solid  white;
+	} 
+
+
+
+.button-search{
+	width: 400px;
+	height:10px;
+	border: 5px solid #9966FF;
+	min-height: 50px;
+	background: #E8DAEF;
+	font-weight: bold;
+	font-size: 1.5rem;
+	position:center
+	
+}
+
+
+
+.button2-search{
+	width: 90px;
+	height:5px;
+	border: 5px solid #9966FF;
+	min-height: 50px;
+	background: #F4ECF7;
+	font-weight: bold;
+	font-size: 1rem;	
+	position:center
+}
+
+.bg-ex-image{
+  background-image: url (reka1.jpg) /* Путь к картинке */
+  background-size: cover; /* Растягиваем картинку  по ширине */
+  background-repeat: no-repeat; /* Картинка фона без повторения */
+  background-position: center; /* Позиция фона по центру */
+}
+
+.bg-ex-gradient{
+  background: #ed836e;
+  background: -webkit-radial-gradient(circle farthest-side at center center, #ed836e 0%, #e32f21 100%);
+  background: -moz-radial-gradient(circle farthest-side at center center, #ed836e 0%, #e32f21 100%);
+  background: radial-gradient(circle farthest-side at center center, #ed836e 0%, #e32f21 100%);
+}
+     
+	 .bg-ex-gradient-animation{
+  background:linear-gradient(200deg,#a8d7e0,#213b40); /* Цвета градиента */
+  background-size:500% 500%;
+  -webkit-animation:ServiceAnimation 10s ease infinite;
+  -moz-animation:ServiceAnimation 10s ease infinite;
+  -o-animation:ServiceAnimation 10s ease infinite;
+  animation:ServiceAnimation 10s ease infinite; /* Время смены цвета */
+}
+@-webkit-keyframes ServiceAnimation{0%
+  {background-position:90% 0}50%
+  {background-position:10% 100%}100%
+  {background-position:90% 0}
+}
+@-moz-keyframes ServiceAnimation{0%
+  {background-position:90% 0}50%
+  {background-position:10% 100%}100%
+  {background-position:90% 0}
+}
+@-o-keyframes ServiceAnimation{0%
+  {background-position:90% 0}50%
+  {background-position:10% 100%}100%
+  {background-position:90% 0}
+}
+@keyframes ServiceAnimation{0%
+  {background-position:90% 0}50%
+  {background-position:10% 100%}100%
+  {background-position:90% 0}
+}
+
+.color-h1 {
+background: #f66d52;
+background: -webkit-repeating-linear-gradient(to bottom, #f66d52 0%, #e32f21 100%);
+background: -moz-repeating-linear-gradient(to bottom, #f66d52 0%, #e32f21 100%);
+background: repeating-linear-gradient(to bottom, #f66d52 0%, #e32f21 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;}
+
+.kaftor {
+  font-family: 'Comfortaa';
+  font-size: 15px;
+  color: #ffffff !important;
+  padding: 15px 25px;
+  border-radius: 5px;
+  border: 2px ridge #f3c846;
+  background: #9e220a;
+  background: linear-gradient(to top, #9e220a, #f66d52);
+}
+.kaftor:hover {
+  color: #cccccc !important;
+  background: #f66d52;
+  background: linear-gradient(to top, #f66d52, #9e220a);
+}
+
+
+.text-ex-h3{
+  font-size: 2.5rem;
+}
+.text-ex-p{
+  font-size: 1.3rem;
+}
+
+.text-cursive{
+  font-style: italic;
+}
+
+.text-bold{
+  font-weight: bold;
+}
+
+
+.pill-nav a {
+  display: inline-block;
+  color: black;
+     text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 30px;
+  border-radius: 5px;
+}
+
+.pill-nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.pill-nav a.active {
+ 
+  color: black;
+}
